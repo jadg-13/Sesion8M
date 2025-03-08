@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "online.jadg13.saludo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "online.jadg13.saludo"
@@ -32,6 +32,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+    }
+
+    buildFeatures {
+        viewBinding = true
     }
 }
 
